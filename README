@@ -1,0 +1,23 @@
+a = add files in the give path
+l = list all directories
+w = write text after d to the given file
+r = to delete a file in the given path
+o = to read a file, output on stdout
+
+To add files-
+    "-a /a/d/c", "-f example"
+    where /a/d/c will be added in file system example
+
+To write Text to the file-
+    "-w /a/d/c", "-f example", "-d Hello_World!!!"
+
+To list all directories-
+    "-l", "-f example"
+
+To delete a file-
+    "-r /a/b/c", "-f example"
+
+To read a file-
+    "-o /a/b/c", "-f example"
+
+Maximum file length name <= 29
